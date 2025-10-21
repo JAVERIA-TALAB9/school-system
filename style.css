@@ -1,0 +1,188 @@
+:root {
+           
+            --primary: #E91E63; 
+            --secondary: #8A2BE2; 
+            --body-bg: #FFFFE0; 
+            --card-bg: #FADADD; 
+            --light-coral: #F08080; 
+            --text-dark: #1A1A1A; 
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--body-bg); 
+            color: var(--text-dark);
+            scroll-behavior: smooth;
+        }
+
+        
+        .navbar {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        
+        .btn-primary {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            transition: all 0.3s ease;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem; 
+        }
+        .btn-primary:hover {
+            background-color: #C2185B; 
+            border-color: #C2185B;
+        }
+
+        .btn-outline-primary {
+            color: var(--primary);
+            border-color: var(--primary);
+            border-radius: 0.75rem;
+        }
+
+        
+        .hero-section {
+            padding: 6rem 0;
+            
+            background: linear-gradient(180deg, var(--body-bg) 70%, #fff 100%);
+            overflow: hidden; 
+        }
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.1;
+        }
+        .text-accent {
+            color: var(--secondary); 
+        }
+        .text-primary {
+            color: var(--primary) !important; 
+        }
+        
+        .hero-image-container {
+            position: relative;
+            min-height: 350px;
+        }
+        
+        .shape-orange { 
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: var(--light-coral); 
+            opacity: 0.5;
+            border-radius: 1.5rem;
+            top: 10%;
+            right: 15%;
+            z-index: 0;
+        }
+        .shape-circle { 
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            background-color: var(--secondary); 
+            opacity: 0.3;
+            border-radius: 50%;
+            bottom: -50px;
+            right: -50px;
+            z-index: 0;
+        }
+        .shadow-lg {
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+        }
+
+
+        
+        .stats-section {
+            background-color: var(--primary); 
+            color: white;
+            padding: 3rem 0;
+            border-radius: 1rem;
+            margin: 4rem auto;
+            max-width: 90%;
+            box-shadow: 0 10px 25px rgba(233, 30, 99, 0.3); 
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .stat-label {
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+
+        
+        .feature-card {
+            background-color: var(--card-bg); 
+            border-radius: 1rem;
+            padding: 1.5rem;
+            border: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .icon-box {
+            color: var(--primary); 
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+       
+        .faculty-card {
+            background-color: #fff; 
+            border-radius: 1rem;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s;
+            text-align: center; 
+        }
+        .faculty-card:hover {
+            border-color: var(--primary); 
+        }
+        .faculty-card img {
+            margin-bottom: 0.5rem;
+        }
+
+        
+        .subject-item {
+            background-color: var(--card-bg); 
+            border-radius: 0.75rem;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+            border: 1px solid #f0f0f0;
+        }
+        .subject-item .icon-box {
+            font-size: 1.5rem;
+        }
+        
+       
+        .admission-form-container {
+            background-color: var(--card-bg); 
+            border-radius: 1.5rem;
+            border: 2px solid var(--primary);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        .footer {
+            background-color: var(--primary);
+            color: #ffffff;
+            padding: 3rem 0;
+        }
+        .footer a {
+            color: #cccccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .footer a:hover {
+            color: var(--secondary); 
+        }
+
+        
+        .modal-header {
+            border-bottom: none;
+        }
+        .modal-content {
+            border-radius: 1rem;
+        }
